@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="snapstyle.css" type="text/css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="logo" />
+    <ul class="nav">
+        <li> <h5>Feaures</h5> 
+         <ul class="features">
+            <li id="ToDo">To Do List </li><br>
+              <li id="Calendar">Calendar</li><br>
+              <li id="Reminders">Reminders</li> <br>
+              <li id="Planning">Planning</li>  <br>
+         </ul>
+    
+    </li>
+    <li><h5>Company</h5> 
+    <ul class="dropDown">
+    
+        <li>History</li><br>
+        <li>
+            Our Team
+        </li><br>
+        <li>Blog</li> <br>
+    </ul>
+    </li>
+    <li><h5 disabled="true">Careers</h5></li>
+    <li> <h5>About</h5></li>
+    </ul>
+    <p><button  class="login">Login</button><button class="register"> Register</button></p>
+    
+    </header>
+    <main>
+    
+        <section class="child">
+         <h1> Make <br> remote work</h1> <br>
+         <p>Get your team in link, no matter your position.<br>
+            Streamline prosesses, create team rituals and watch<br> productivity soar.
+        </p>
+        <br>
+        <button class="learn">Learn More</button>
+        <br>
+        <ul class="images"><li><img src="images/client-databiz.svg"/></li>
+            <li><img src="images/client-audiophile.svg"/></li>
+            <li><img src="images/client-meet.svg"/></li>
+            <li><img src="images/client-maker.svg"/></li>
+        </ul>
+        </section>
+        <section class="child">
+        <img src="images/image-hero-desktop.png" /> 
+        </section>
+        
+    </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    background-color: hsl(0, 9%, 83%);
+}
+
+
+
+ul.nav{
+    display:inline-block;
+}
+.nav > li{
+    display: inline-block;
+    padding: 0;
+    margin:0;
+    
+}
+ul.features{
+    display:inline-block;
+    position: relative;
+    bottom: -90px;
+    right:60px;
+    background-color: white;
+    z-index: 5;
+    border-radius: 8px;
+    margin:0;
+    padding: 7px;
+}
+ul.dropDown{
+    display:inline-block;
+    position: relative;
+    bottom: -70px;
+    right:60px;
+    background-color: white;
+    z-index: 5;
+    border-radius: 8px;
+    margin:0;
+    padding: 7px;
+}
+
+header > p{
+    text-align: right;
+    display: inline-block;
+    padding: 0;
+    margin:0;;
+}
+p > button {
+    display: inline;
+}
+li > h5{
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+.features li{
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+.dropDown li{
+
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+
+section > img{
+    height: 70vh;
+    width: 40vw;
+    float: right;
+
+}
+section.child{
+    display:inline-block;
+    width:40vw;
+    height: 70vh;
+    text-align: center;
+    vertical-align: center;
+}
+
+.child h1{
+    display: inline-block;
+}
+section > p{
+    display: inline-block;
+}
+#ToDo::before{
+      content: url(images/icon-todo.svg) " ";
+
+
+}
+#Calendar::before{
+    content: url(images/icon-calendar.svg) " ";
+    
+
+}
+
+#Reminders::before{
+    content: url(images/icon-reminders.svg) " ";
+    
+
+}
+#Planning::before{
+    content: url(images/icon-planning.svg) " ";
+}
+ul.images{
+    display: inline-block;
+     list-style-type: none; 
+}
+.images li{
+    display: inline-block;
+    padding:5px;
+}
+button.learn{
+    background-color: black;
+    color:white;
+    border:black solid thin;
+    border-radius:7px;
+    padding: 5px;
+
+
+}
+button.learn:hover{
+    background-color:hsl(0, 9%, 83%);
+    color:black;
+    padding:5px;
+
+}
+button.login{
+
+    border:none;
+    padding:7px;
+    background-color: hsl(0, 9%, 83%); 
+
+}
+button.register{
+    background-color:hsl(0, 9%, 83%); 
+    padding: 7px;
+    border-radius: 7px;;
+}
